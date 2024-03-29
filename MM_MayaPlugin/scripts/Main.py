@@ -6,7 +6,7 @@ from importlib import reload
 from sys import path as syspath, platform
 from os import environ, path as ospath
 
-ROOT_DIR = r"C:\Users\mengmeng_zhu\Desktop\MM_MayaPlugin\scripts"
+ROOT_DIR = r"C:\Users\mengmeng_zhu\Desktop\MM_Tools\MM_Tools\MM_MayaPlugin\scripts"
 ROOT_LIB_DIR = fr"{ROOT_DIR}/lib"
 if platform == "win32":
     LIB_DIR = f"{ROOT_LIB_DIR}/windows"

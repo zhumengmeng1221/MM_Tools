@@ -311,7 +311,7 @@ global proc brSmoothWeightsProperties()
                     brSmoothWeightsFrame;
 
             rowColumnLayout -numberOfColumns 5
-                            -columnWidth 1 5
+                            -columnWidth 1 200
                             -columnOffset 1 "right" 8
                             brSmoothWeightsCurveColumn;
                 text -label "ÇúÏß-Curve" -align "right";

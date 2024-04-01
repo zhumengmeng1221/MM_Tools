@@ -1,3 +1,4 @@
+# encoding:utf-8
 import maya.cmds as cmds
 import math
 import maya
@@ -34,6 +35,7 @@ from Pose import *
 from testpy import Test1 
 from brSmoothWeights import dragDropInstaller
 from rev_rig_adjustment import RevUI
+from edgeSensei import *
 version = 1.1
 createdOn = '2023/5/20'
 csv_file = ROOT_DIR+r"\52BS.txt"
@@ -47,18 +49,19 @@ class Main:
     def createUI1(self):
         if cmds.window(self.winName, exists=True):
             cmds.deleteUI(self.winName)
-        window = cmds.window(self.winName, title='MM²å¼ş'+ str(version), widthHeight=(200, 400),resizeToFitChildren=False, sizeable=False,toolbox=True)
+        window = cmds.window(self.winName, title='MMæ’ä»¶'+ str(version), widthHeight=(200, 400),resizeToFitChildren=False, sizeable=False,toolbox=True)
         cmds.columnLayout(adjustableColumn=True)
-        cmds.button(label='¶¥µã·¨Ïß¸´ÖÆ', command=self.onSelectVertexC)
-        cmds.button(label='µ¼ÈëÄ£ĞÍ·¨ÏßËø¶¨', command=self.NormalsLock)
-        cmds.button(label='»ùÓÚmetahumenÉú³É52±íÇé¼¡', command=self.blendershap52)
-        cmds.button(label='ÖØÃüÃû²å¼ş', command=self.Rema)
+        cmds.button(label='é¡¶ç‚¹æ³•çº¿å¤åˆ¶', command=self.onSelectVertexC)
+        cmds.button(label='å¯¼å…¥æ¨¡å‹æ³•çº¿é”å®š', command=self.NormalsLock)
+        cmds.button(label='åŸºäºmetahumenç”Ÿæˆ52è¡¨æƒ…è‚Œ', command=self.blendershap52)
+        cmds.button(label='é‡å‘½åæ’ä»¶', command=self.Rema)
         cmds.button(label='Metahumen POS A->T', command=self.AToT)
         cmds.button(label='Metahumen POS T->A', command=self.TToA)
         cmds.button(label='UE_Metahumen POS A->T', command=self.UEAToT)
         cmds.button(label='UE_Metahumen POS T->A', command=self.UETToA)
-        cmds.button(label='¿ìËÙÆ½»¬¹¤¾ßbrSmoothWeights°²×°', command=self.br)
-        cmds.button(label='ÏàÍ¬ÍØÆË¹Ç÷ÀÆ¥Åä', command=self.rev_rig)
+        cmds.button(label='å¿«é€Ÿå¹³æ»‘å·¥å…·brSmoothWeightså®‰è£…', command=self.br)
+        cmds.button(label='ç›¸åŒæ‹“æ‰‘éª¨éª¼åŒ¹é…', command=self.rev_rig)
+        cmds.button(label='æœ€å¼ºç¼–è¾‘è¾¹å·¥å…·', command=self.EdgeS)
         cmds.showWindow(window)
    
  
@@ -66,7 +69,7 @@ class Main:
         VertexNormalTransfer.createUI(self=VertexNormalTransfer())
     def NormalsLock(self, *args):
         maya.mel.eval('FBXProperty "Import|IncludeGrp|Geometry|OverrideNormalsLock" -v 1')
-        #print("³É¹¦")
+        #print("æˆåŠŸ")
     def blendershap52(self, *args):
         #Metahumen52BSCreate(csv_file)
         BS.Metahumen52BSCreate(BS(),csv_file)
@@ -95,7 +98,8 @@ class Main:
             dragDropInstaller.prepareInstallation()
     def rev_rig(self, *args):
         RevUI()        
-
+    def EdgeS(self, *args):
+        EdgeSensei()
 
 myPlugin = Main()
 myPlugin.createUI1()

@@ -26,8 +26,7 @@ syspath.append(ROOT_DIR)
 syspath.append(LIB_DIR)
 
 
-#from Metahumen52blendshap import Metahumen52BSCreate
-#from Metahumen52blendshap import *
+
 from Metahumen52blendshap import BS
 from VertexNormalTransfer import *
 import ig_EzRename 
@@ -47,17 +46,17 @@ class Main:
     def createUI1(self):
         if cmds.window(self.winName, exists=True):
             cmds.deleteUI(self.winName)
-        window = cmds.window(self.winName, title='MMæ’ä»¶'+ str(version), widthHeight=(200, 400),resizeToFitChildren=False, sizeable=False,toolbox=True)
+        window = cmds.window(self.winName, title='MM²å¼ş'+ str(version), widthHeight=(200, 400),resizeToFitChildren=False, sizeable=False,toolbox=True)
         cmds.columnLayout(adjustableColumn=True)
-        cmds.button(label='é¡¶ç‚¹æ³•çº¿å¤åˆ¶', command=self.onSelectVertexC)
-        cmds.button(label='å¯¼å…¥æ¨¡å‹æ³•çº¿é”å®š', command=self.NormalsLock)
-        cmds.button(label='åŸºäºmetahumenç”Ÿæˆ52è¡¨æƒ…è‚Œ', command=self.blendershap52)
-        cmds.button(label='é‡å‘½åæ’ä»¶', command=self.Rema)
+        cmds.button(label='¶¥µã·¨Ïß¸´ÖÆ', command=self.onSelectVertexC)
+        cmds.button(label='µ¼ÈëÄ£ĞÍ·¨ÏßËø¶¨', command=self.NormalsLock)
+        cmds.button(label='»ùÓÚmetahumenÉú³É52±íÇé¼¡', command=self.blendershap52)
+        cmds.button(label='ÖØÃüÃû²å¼ş', command=self.Rema)
         cmds.button(label='Metahumen POS A->T', command=self.AToT)
         cmds.button(label='Metahumen POS T->A', command=self.TToA)
         cmds.button(label='UE_Metahumen POS A->T', command=self.UEAToT)
         cmds.button(label='UE_Metahumen POS T->A', command=self.UETToA)
-        cmds.button(label='å¿«é€Ÿå¹³æ»‘å·¥å…·brSmoothWeightså®‰è£…', command=self.Testfun)
+        cmds.button(label='¿ìËÙÆ½»¬¹¤¾ßbrSmoothWeights°²×°', command=self.Testfun)
         cmds.showWindow(window)
    
  
@@ -65,7 +64,7 @@ class Main:
         VertexNormalTransfer.createUI(self=VertexNormalTransfer())
     def NormalsLock(self, *args):
         maya.mel.eval('FBXProperty "Import|IncludeGrp|Geometry|OverrideNormalsLock" -v 1')
-        print("æˆåŠŸ")
+        #print("³É¹¦")
     def blendershap52(self, *args):
         #Metahumen52BSCreate(csv_file)
         BS.Metahumen52BSCreate(BS(),csv_file)

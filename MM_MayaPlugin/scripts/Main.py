@@ -33,6 +33,7 @@ import ig_EzRename
 from Pose import *
 from testpy import Test1 
 from brSmoothWeights import dragDropInstaller
+from rev_rig_adjustment import RevUI
 version = 1.1
 createdOn = '2023/5/20'
 csv_file = ROOT_DIR+r"\52BS.txt"
@@ -56,7 +57,8 @@ class Main:
         cmds.button(label='Metahumen POS T->A', command=self.TToA)
         cmds.button(label='UE_Metahumen POS A->T', command=self.UEAToT)
         cmds.button(label='UE_Metahumen POS T->A', command=self.UETToA)
-        cmds.button(label='快速平滑工具brSmoothWeights安装', command=self.Testfun)
+        cmds.button(label='快速平滑工具brSmoothWeights安装', command=self.br)
+        cmds.button(label='相同拓扑骨骼匹配', command=self.rev_rig)
         cmds.showWindow(window)
    
  
@@ -78,7 +80,7 @@ class Main:
         UEPoseAToT()
     def UETToA(self, *args):
         UEPoseTToA()
-    def Testfun(self, *args):
+    def br(self, *args):
         if not dragDropInstaller.installExists():
             return
 
@@ -91,7 +93,8 @@ class Main:
             dragDropInstaller.showEULA()
         else:
             dragDropInstaller.prepareInstallation()
-           
+    def rev_rig(self, *args):
+        RevUI()        
 
 
 myPlugin = Main()

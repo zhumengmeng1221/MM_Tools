@@ -13,6 +13,7 @@ def addMenuItems():
         mel.eval("source brSmoothWeightsCreateMenuItems; brSmoothWeightsAddMenuCommand;")
 
 utils.executeDeferred(addMenuItems)
+print("添加成功")
 
 # ----------------------------------------------------------------------
 # MIT License

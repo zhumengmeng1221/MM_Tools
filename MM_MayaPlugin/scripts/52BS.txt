@@ -16,7 +16,7 @@ jawForward;CTRL_C_jaw_fwdBack=-1;head_lod2_mesh,teeth_lod2_mesh,saliva_lod2_mesh
 jawLeft;CTRL_C_jaw=-1|0;head_lod2_mesh,teeth_lod2_mesh,saliva_lod2_mesh
 jawRight;CTRL_C_jaw=1|0;head_lod2_mesh,teeth_lod2_mesh,saliva_lod2_mesh
 jawOpen;CTRL_C_jaw=0|1;head_lod2_mesh,teeth_lod2_mesh,saliva_lod2_mesh
-mouthClose;CTRL_C_eye=0|0;head_lod2_mesh
+mouthClose;CTRL_R_mouth_towardsD=1,CTRL_L_mouth_towardsD=1;head_lod2_mesh
 mouthFunnel;CTRL_L_mouth_funnelU=1,CTRL_L_mouth_funnelD=1,CTRL_R_mouth_funnelU=1,CTRL_R_mouth_funnelD=1;head_lod2_mesh
 mouthPucker;CTRL_L_mouth_purseU=1,CTRL_L_mouth_purseD=1,CTRL_R_mouth_purseU=1,CTRL_R_mouth_purseD=1,CTRL_L_mouth_towardsU=1,CTRL_L_mouth_towardsD=1,CTRL_R_mouth_towardsU=1,CTRL_R_mouth_towardsD=1;head_lod2_mesh
 mouthLeft;CTRL_C_mouth=1|0;head_lod2_mesh

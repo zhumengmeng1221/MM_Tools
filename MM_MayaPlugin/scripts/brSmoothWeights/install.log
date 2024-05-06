@@ -896,3 +896,194 @@
 2024-03-29 17:29:33 : Installation complete.
 2024-04-01 18:01:54 : Begin installation
 2024-04-01 18:01:54 : Show EULA
+2024-04-19 14:48:29 : Begin installation
+2024-04-19 14:48:29 : Show EULA
+2024-04-19 14:48:32 : Found existing modules:
+2024-04-19 14:48:32 : 	C:/Users/mengmeng_zhu/Documents/maya/2023/modules\brSmoothWeights.mod
+2024-04-19 14:48:32 : Found existing module contents:
+2024-04-19 14:48:32 : 	C:\Users\mengmeng_zhu\Documents\maya\2023\modules/brSmoothWeights
+2024-04-19 14:48:32 : Setting automatic paths:
+2024-04-19 14:48:32 : Using the previous installation path to install the module.
+2024-04-19 14:48:32 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 14:48:32 : C:/Users/mengmeng_zhu/Documents/maya/2023/modules
+2024-04-19 15:21:21 : Begin installation
+2024-04-19 15:21:21 : Show EULA
+2024-04-19 15:21:22 : Found loaded plug-in: brSmoothWeights.mll
+2024-04-19 15:21:25 : Unloaded plug-in: brSmoothWeights.mll
+2024-04-19 15:21:25 : Found existing modules:
+2024-04-19 15:21:25 : 	C:/Users/mengmeng_zhu/Documents/maya/2023/modules\brSmoothWeights.mod
+2024-04-19 15:21:25 : Found existing module contents:
+2024-04-19 15:21:25 : 	C:\Users\mengmeng_zhu\Documents\maya\2023\modules/brSmoothWeights
+2024-04-19 15:21:25 : Setting automatic paths:
+2024-04-19 15:21:25 : Using the previous installation path to install the module.
+2024-04-19 15:21:25 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:21:25 : C:/Users/mengmeng_zhu/Documents/maya/2023/modules
+2024-04-19 15:21:28 : Deleting previously installed modules.
+2024-04-19 15:21:28 : Deleting: C:/Users/mengmeng_zhu/Documents/maya/2023/modules\brSmoothWeights.mod
+2024-04-19 15:21:28 : Deleting previously installed module contents.
+2024-04-19 15:21:28 : Removed: C:\Users\mengmeng_zhu\Documents\maya\2023\modules/brSmoothWeights
+2024-04-19 15:21:28 : Uninstall completed.
+2024-04-19 15:22:22 : Begin installation
+2024-04-19 15:22:22 : Show EULA
+2024-04-19 15:22:23 : Setting automatic paths:
+2024-04-19 15:22:23 : Using the default user preferences path to install the module.
+2024-04-19 15:22:23 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:22:23 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:22:25 : Installing files to: C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:22:25 : Copying: C:\Users\mengmeng_zhu\Desktop\MM_Tools\MM_Tools\MM_MayaPlugin\scripts\brSmoothWeights\modules\brSmoothWeights to: C:\Users\mengmeng_zhu\Documents\maya\2023\modules\brSmoothWeights
+2024-04-19 15:22:25 : Creating module file in: C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:22:25 : Writing module file: C:\Users\mengmeng_zhu\Documents\maya\2023\modules\brSmoothWeights.mod
+2024-04-19 15:22:25 : Installation complete.
+2024-04-19 15:23:25 : Begin installation
+2024-04-19 15:23:25 : Show EULA
+2024-04-19 15:23:26 : Found existing modules:
+2024-04-19 15:23:26 : 	C:/Users/mengmeng_zhu/Documents/maya/2023/modules\brSmoothWeights.mod
+2024-04-19 15:23:26 : Found existing module contents:
+2024-04-19 15:23:26 : 	C:\Users\mengmeng_zhu\Documents\maya\2023\modules/brSmoothWeights
+2024-04-19 15:23:26 : Setting automatic paths:
+2024-04-19 15:23:26 : Using the previous installation path to install the module.
+2024-04-19 15:23:26 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:23:26 : C:/Users/mengmeng_zhu/Documents/maya/2023/modules
+2024-04-19 15:23:36 : Deleting previously installed modules.
+2024-04-19 15:23:36 : Deleting: C:/Users/mengmeng_zhu/Documents/maya/2023/modules\brSmoothWeights.mod
+2024-04-19 15:23:36 : Deleting previously installed module contents.
+2024-04-19 15:23:45 : No previously installed modules found.
+2024-04-19 15:23:45 : No previously installed modules contents found.
+2024-04-19 15:23:45 : Uninstall completed.
+2024-04-19 15:24:53 : Begin installation
+2024-04-19 15:24:53 : Show EULA
+2024-04-19 15:24:54 : Setting automatic paths:
+2024-04-19 15:24:54 : Using the default user preferences path to install the module.
+2024-04-19 15:24:54 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:24:54 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:26:12 : Installing files to: C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:26:12 : Removed: C:\Users\mengmeng_zhu\Documents\maya\2023\modules\brSmoothWeights
+2024-04-19 15:26:12 : Copying: C:\Users\mengmeng_zhu\Desktop\MM_Tools\MM_Tools\MM_MayaPlugin\scripts\brSmoothWeights\modules\brSmoothWeights to: C:\Users\mengmeng_zhu\Documents\maya\2023\modules\brSmoothWeights
+2024-04-19 15:26:12 : Creating module file in: C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:26:12 : Writing module file: C:\Users\mengmeng_zhu\Documents\maya\2023\modules\brSmoothWeights.mod
+2024-04-19 15:26:12 : Installation complete.
+2024-04-19 15:30:13 : Begin installation
+2024-04-19 15:30:13 : Show EULA
+2024-04-19 15:30:14 : Found existing modules:
+2024-04-19 15:30:14 : 	C:/Users/mengmeng_zhu/Documents/maya/2023/modules\brSmoothWeights.mod
+2024-04-19 15:30:14 : Found existing module contents:
+2024-04-19 15:30:14 : 	C:\Users\mengmeng_zhu\Documents\maya\2023\modules/brSmoothWeights
+2024-04-19 15:30:14 : Setting automatic paths:
+2024-04-19 15:30:14 : Using the previous installation path to install the module.
+2024-04-19 15:30:14 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:30:14 : C:/Users/mengmeng_zhu/Documents/maya/2023/modules
+2024-04-19 15:30:16 : Deleting previously installed modules.
+2024-04-19 15:30:16 : Deleting: C:/Users/mengmeng_zhu/Documents/maya/2023/modules\brSmoothWeights.mod
+2024-04-19 15:30:16 : Deleting previously installed module contents.
+2024-04-19 15:30:16 : Removed: C:\Users\mengmeng_zhu\Documents\maya\2023\modules/brSmoothWeights
+2024-04-19 15:30:16 : Uninstall completed.
+2024-04-19 15:31:35 : Installing files to: C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:31:35 : Copying: C:\Users\mengmeng_zhu\Desktop\MM_Tools\MM_Tools\MM_MayaPlugin\scripts\brSmoothWeights\modules\brSmoothWeights to: C:\Users\mengmeng_zhu\Documents\maya\2023\modules\brSmoothWeights
+2024-04-19 15:31:35 : Creating module file in: C:/Users/mengmeng_zhu/Documents/maya/2023/modules
+2024-04-19 15:31:35 : Writing module file: C:/Users/mengmeng_zhu/Documents/maya/2023/modules\brSmoothWeights.mod
+2024-04-19 15:31:35 : Installation complete.
+2024-04-19 15:54:02 : Begin installation
+2024-04-19 15:54:02 : Show EULA
+2024-04-19 15:54:06 : Found loaded plug-in: brSmoothWeights.mll
+2024-04-19 15:54:12 : Unloaded plug-in: brSmoothWeights.mll
+2024-04-19 15:54:12 : Found existing modules:
+2024-04-19 15:54:12 : 	C:/Users/mengmeng_zhu/Documents/maya/2023/modules\brSmoothWeights.mod
+2024-04-19 15:54:12 : Found existing module contents:
+2024-04-19 15:54:12 : 	C:\Users\mengmeng_zhu\Documents\maya\2023\modules/brSmoothWeights
+2024-04-19 15:54:12 : Setting automatic paths:
+2024-04-19 15:54:12 : Using the previous installation path to install the module.
+2024-04-19 15:54:12 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 15:54:12 : C:/Users/mengmeng_zhu/Documents/maya/2023/modules
+2024-04-19 16:06:09 : Begin installation
+2024-04-19 16:06:09 : Show EULA
+2024-04-19 16:06:10 : Found existing modules:
+2024-04-19 16:06:10 : 	C:/Users/mengmeng_zhu/Documents/maya/2023/modules\brSmoothWeights.mod
+2024-04-19 16:06:10 : Found existing module contents:
+2024-04-19 16:06:10 : 	C:\Users\mengmeng_zhu\Documents\maya\2023\modules/brSmoothWeights
+2024-04-19 16:06:10 : Setting automatic paths:
+2024-04-19 16:06:10 : Using the previous installation path to install the module.
+2024-04-19 16:06:10 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 16:06:10 : C:/Users/mengmeng_zhu/Documents/maya/2023/modules
+2024-04-19 16:06:12 : Deleting previously installed modules.
+2024-04-19 16:06:12 : Deleting: C:/Users/mengmeng_zhu/Documents/maya/2023/modules\brSmoothWeights.mod
+2024-04-19 16:06:12 : Deleting previously installed module contents.
+2024-04-19 16:06:12 : Removed: C:\Users\mengmeng_zhu\Documents\maya\2023\modules/brSmoothWeights
+2024-04-19 16:06:12 : Uninstall completed.
+2024-04-19 16:08:24 : Begin installation
+2024-04-19 16:08:24 : Show EULA
+2024-04-19 16:08:25 : Setting automatic paths:
+2024-04-19 16:08:25 : Using the default user preferences path to install the module.
+2024-04-19 16:08:25 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 16:08:25 : C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 16:08:26 : Installing files to: C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 16:08:26 : Copying: C:\Users\mengmeng_zhu\Desktop\MM_Tools\MM_Tools\MM_MayaPlugin\scripts\brSmoothWeights\modules\brSmoothWeights to: C:\Users\mengmeng_zhu\Documents\maya\2023\modules\brSmoothWeights
+2024-04-19 16:08:26 : Creating module file in: C:\Users\mengmeng_zhu\Documents\maya\2023\modules
+2024-04-19 16:08:26 : Writing module file: C:\Users\mengmeng_zhu\Documents\maya\2023\modules\brSmoothWeights.mod
+2024-04-19 16:08:26 : Installation complete.
+2024-04-19 16:34:29 : Begin installation
+2024-04-19 16:34:29 : Show EULA
+2024-04-19 16:34:30 : Setting automatic paths:
+2024-04-19 16:34:30 : Using the default user preferences path to install the module.
+2024-04-19 16:34:30 : C:\Users\mengmeng_zhu\Documents\maya\2024\modules
+2024-04-19 16:34:30 : C:\Users\mengmeng_zhu\Documents\maya\2024\modules
+2024-04-19 16:34:33 : Installing files to: C:\Users\mengmeng_zhu\Documents\maya\2024\modules
+2024-04-19 16:34:34 : Copying: C:\Users\mengmeng_zhu\Desktop\MM_Tools\MM_Tools\MM_MayaPlugin\scripts\brSmoothWeights\modules\brSmoothWeights to: C:\Users\mengmeng_zhu\Documents\maya\2024\modules\brSmoothWeights
+2024-04-19 16:34:34 : Creating module file in: C:\Users\mengmeng_zhu\Documents\maya\2024\modules
+2024-04-19 16:34:34 : Writing module file: C:\Users\mengmeng_zhu\Documents\maya\2024\modules\brSmoothWeights.mod
+2024-04-19 16:34:34 : Installation complete.
+2024-04-19 16:35:10 : Begin installation
+2024-04-19 16:35:10 : Show EULA
+2024-04-19 16:35:11 : Found existing modules:
+2024-04-19 16:35:11 : 	C:/Users/mengmeng_zhu/Documents/maya/2024/modules\brSmoothWeights.mod
+2024-04-19 16:35:11 : Found existing module contents:
+2024-04-19 16:35:11 : 	C:\Users\mengmeng_zhu\Documents\maya\2024\modules/brSmoothWeights
+2024-04-19 16:35:11 : Setting automatic paths:
+2024-04-19 16:35:11 : Using the previous installation path to install the module.
+2024-04-19 16:35:11 : C:\Users\mengmeng_zhu\Documents\maya\2024\modules
+2024-04-19 16:35:11 : C:/Users/mengmeng_zhu/Documents/maya/2024/modules
+2024-04-19 16:35:13 : Creating module file in: C:/Users/mengmeng_zhu/Documents/maya/2024/modules
+2024-04-19 16:35:13 : Writing module file: C:/Users/mengmeng_zhu/Documents/maya/2024/modules\brSmoothWeights.mod
+2024-04-19 16:35:13 : Module file created.
+2024-04-19 16:37:30 : Begin installation
+2024-04-19 16:37:30 : Show EULA
+2024-04-19 16:37:33 : Found loaded plug-in: brSmoothWeights.mll
+2024-04-19 16:37:35 : Unloaded plug-in: brSmoothWeights.mll
+2024-04-19 16:37:35 : Found existing modules:
+2024-04-19 16:37:35 : 	C:/Users/mengmeng_zhu/Documents/maya/2024/modules\brSmoothWeights.mod
+2024-04-19 16:37:35 : Found existing module contents:
+2024-04-19 16:37:35 : 	C:\Users\mengmeng_zhu\Documents\maya\2024\modules/brSmoothWeights
+2024-04-19 16:37:35 : Setting automatic paths:
+2024-04-19 16:37:35 : Using the previous installation path to install the module.
+2024-04-19 16:37:35 : C:\Users\mengmeng_zhu\Documents\maya\2024\modules
+2024-04-19 16:37:35 : C:/Users/mengmeng_zhu/Documents/maya/2024/modules
+2024-04-19 16:52:09 : Begin installation
+2024-04-19 16:52:09 : Show EULA
+2024-04-19 16:52:10 : Found loaded plug-in: brSmoothWeights.mll
+2024-04-19 16:52:11 : Unloaded plug-in: brSmoothWeights.mll
+2024-04-19 16:52:11 : Found existing modules:
+2024-04-19 16:52:11 : 	C:/Users/mengmeng_zhu/Documents/maya/2024/modules\brSmoothWeights.mod
+2024-04-19 16:52:11 : Found existing module contents:
+2024-04-19 16:52:11 : 	C:\Users\mengmeng_zhu\Documents\maya\2024\modules/brSmoothWeights
+2024-04-19 16:52:11 : Setting automatic paths:
+2024-04-19 16:52:11 : Using the previous installation path to install the module.
+2024-04-19 16:52:11 : C:\Users\mengmeng_zhu\Documents\maya\2024\modules
+2024-04-19 16:52:11 : C:/Users/mengmeng_zhu/Documents/maya/2024/modules
+2024-04-19 16:52:12 : Deleting previously installed modules.
+2024-04-19 16:52:12 : Deleting: C:/Users/mengmeng_zhu/Documents/maya/2024/modules\brSmoothWeights.mod
+2024-04-19 16:52:12 : Deleting previously installed module contents.
+2024-04-19 16:52:12 : Removed: C:\Users\mengmeng_zhu\Documents\maya\2024\modules/brSmoothWeights
+2024-04-19 16:52:12 : Uninstall completed.
+2024-04-19 16:53:15 : Begin installation
+2024-04-19 16:53:15 : Show EULA
+2024-04-19 16:53:16 : Setting automatic paths:
+2024-04-19 16:53:16 : Using the default user preferences path to install the module.
+2024-04-19 16:53:16 : C:\Users\mengmeng_zhu\Documents\maya\2024\modules
+2024-04-19 16:53:16 : C:\Users\mengmeng_zhu\Documents\maya\2024\modules
+2024-04-19 16:53:18 : Deleting previously installed modules.
+2024-04-19 16:53:18 : Error deleting file: C:/Users/mengmeng_zhu/Documents/maya/2024/modules\brSmoothWeights.mod
+2024-04-19 16:53:18 : Installation cancelled because an error has occurred.
+2024-04-19 16:53:19 : Installing files to: C:\Users\mengmeng_zhu\Documents\maya\2024\modules
+2024-04-19 16:53:19 : Copying: C:\Users\mengmeng_zhu\Desktop\MM_Tools\MM_Tools\MM_MayaPlugin\scripts\brSmoothWeights\modules\brSmoothWeights to: C:\Users\mengmeng_zhu\Documents\maya\2024\modules\brSmoothWeights
+2024-04-19 16:53:19 : Creating module file in: C:\Users\mengmeng_zhu\Documents\maya\2024\modules
+2024-04-19 16:53:19 : Writing module file: C:\Users\mengmeng_zhu\Documents\maya\2024\modules\brSmoothWeights.mod
+2024-04-19 16:53:19 : Installation complete.

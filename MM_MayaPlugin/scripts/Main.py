@@ -36,6 +36,7 @@ from testpy import Test1
 from brSmoothWeights import dragDropInstaller
 from rev_rig_adjustment import RevUI
 from edgeSensei import *
+from bsrename import create_bsui
 version = 1.1
 createdOn = '2023/5/20'
 csv_file = ROOT_DIR+r"\52BS.txt"
@@ -62,6 +63,7 @@ class Main:
         cmds.button(label='快速平滑工具brSmoothWeights安装', command=self.br)
         cmds.button(label='相同拓扑骨骼匹配', command=self.rev_rig)
         cmds.button(label='最强编辑边工具', command=self.EdgeS)
+        cmds.button(label='bs前缀批量增加删除', command=self.bsrename)
         cmds.showWindow(window)
    
  
@@ -88,7 +90,6 @@ class Main:
             return
 
         dragDropInstaller.logInfo("Begin installation")
-
         # If a license file exists display the EULA window. Otherwise
         # continue to the installation window.
         if ospath.exists(ospath.join(dragDropInstaller.INSTALL_ROOT, "LICENSE")):
@@ -100,6 +101,7 @@ class Main:
         RevUI()        
     def EdgeS(self, *args):
         EdgeSensei()
-
+    def bsrename(self, *args):
+        create_bsui()
 myPlugin = Main()
 myPlugin.createUI1()
